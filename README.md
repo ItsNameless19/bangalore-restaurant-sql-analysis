@@ -1,4 +1,3 @@
-# bangalore-restaurant-sql-analysis
 PostgreSQL analysis of 51,717 Zomato Bangalore listings: where should a new restaurant open?
 
 # Where Should a New Restaurant Open in Bangalore?
@@ -43,6 +42,8 @@ SQL used: `JOIN`, `GROUP BY`, `HAVING`, `CASE WHEN`, `FILTER`, CTEs, `DISTINCT O
 **6. Demand per restaurant** (votes per restaurant, areas with 100 or more restaurants):
 Koramangala 5th Block 675 · Indiranagar 489 · Koramangala 4th Block 465 · Koramangala 7th Block 309 · Brigade Road 303. Whitefield is 170 and Marathahalli 201.
 
+![Q6 demand per restaurant](Q6.png)
+
 **7. Where the niche cuisines already are** (Japanese, Korean, Modern Indian, Mediterranean): Indiranagar 18, Whitefield 18, Marathahalli 11, HSR 10, Koramangala 5th Block 8.
 
 ## Recommendation
@@ -60,4 +61,4 @@ Koramangala 5th Block 675 · Indiranagar 489 · Koramangala 4th Block 465 · Kor
 
 ## Repository contents
 - `bangalore_restaurants.sql`: all queries, in order
-- `screenshots/`: results for each query
+- `Q1.png` to `Q7.png`: result screenshots for each query
